@@ -13,7 +13,7 @@ local function run(msg, matches)
   file:write(text)
   file:flush()
   file:close()
-  return "done😊"
+  return "پلاکبن مورد نظر اضافه شد"
  end
  return {
   description = "a Usefull plugin for sudo !",
